@@ -1,0 +1,89 @@
+.sisi{
+	width: 23%;
+	height: 750px;
+	float: left;
+	background-color: #1b191940;
+	margin-top: 70px;
+	position: fixed;
+}
+.s1{
+	width: 100%;
+	padding-bottom: 30px;
+	float: left;
+	background-color: lightblue;
+}
+.kotak{
+	width: 110px;
+	height: 110px;
+	background-color: #eee;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	border: 5px solid white;
+	border-radius: 100%;
+}
+.nametag{
+	width: 145px;
+	height: 60px;
+	float: right;
+	background-color: transparent;
+	margin-top: 7%;
+	margin-right: 2%;
+}
+.nametag h2{
+	text-align: center;
+}
+.button{
+	width: 50px;
+	height: 50px;
+	margin-top: 1%;
+	background-color: #eee;
+	float: right;
+	margin-right: 6.5%;
+}
+.s2{
+	width: 90%;
+	height: 40px;
+	background-color: transparent;
+	float: left;
+	transition: 0.5s;
+	padding-top: 10px;
+	padding-left: 10%;
+	color: #fffffff1;
+	font-family: opensans;
+	font-size: 15px;
+}
+.s2:hover{
+	background-color: #00aa9d;
+	transition: 0.5s;
+}
+.s22:hover{
+	background-color: #00aa9d70;
+	transition: 0.5s;
+}
+.s2 img, .s22 img{
+	width: 30px;
+	height: 30px;
+	margin-right: 12px;
+}
+.s22{
+	width: 80%;
+	height: 40px;
+	background-color: transparent;
+	float: left;
+	transition: 0.5s;
+	padding-left: 20%;
+	padding-top: 10px;
+	color: #fffffff1;
+	font-family: ubuntu;
+	font-family: 15px;
+	display: none;
+}
+.photo{
+	width: 28px;
+	height: 28px;
+	background-image: url('../img/computer.png');
+	background-size: 100%;
+	float: left;
+	margin-right: 25px;
+}

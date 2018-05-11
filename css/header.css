@@ -1,0 +1,79 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: #1b191999;
+	float: left;
+	position: fixed;
+}
+.h1{
+	width: 9%;
+	height: 100%;
+	float: left;
+	background-color: transparent;
+	margin-left: 1%;
+}
+.h15{
+	background-color: transparent;
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+.h1 h2, .h15 h2{
+	margin-left: 5%;
+	color: #fff;
+	font-family: ubuntu;
+	font-size: 23px;
+	text-transform: uppercase;
+	float: left;
+}
+.h1 h2{
+	color: #00bf9a;
+}
+.h15 h2{
+	margin-left: 1%;
+}
+.h2{
+	width: auto;
+	padding-left: 15px;
+	height: 100%;
+	float: right;
+	background-color: transparent;
+}
+.h2:hover{
+	background-color: #00000029;
+}
+.foto{
+	float: right;
+	width: 50px;
+	height: 50px;
+	margin: 1.5%;
+	border-radius: 50%;
+	border: 3px solid #eee;
+	margin-left: 10%;
+	margin-right: 10px; 
+	background-size: 150%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.shit{
+	width: auto;;
+	padding-left: 10px;
+	height: 100%;
+	float: left;
+	background-color: transparent;
+	margin-right: 10px;
+	margin-top: -65px;
+}
+.shit p{
+	font-family: lato;
+	font-weight: bold;
+	color: white;
+	text-align: right;
+	margin-right: 8px;
+	margin-top: 20%;
+}

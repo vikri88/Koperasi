@@ -1,0 +1,41 @@
+.body{
+	width: 75%;
+	height: 550px;
+	float: left;
+	margin-left: 24%;
+	background-color: transparent;
+	margin-top: 7%;
+}
+.body table{
+	width: 95%;
+	border-collapse: collapse;
+}
+.body table th{
+	padding: 1.5%;
+	border-bottom: 4px solid #00aa9d;
+	background-color: #00000040;
+	color: white;
+	font-family: ubuntu;
+	font-size: 15px;
+}
+.body table td{
+	border-bottom: 1px solid #ffffff40;
+	padding: 1.1%;
+	text-align: center;
+	color: #eee;
+	font-family: ubuntu;
+	background-color: #1b191940;
+	font-size: 14px;
+}
+.body button{
+	width: 60px;
+	padding: 10px;
+	font-size: 12px;	
+}
+.body h2{
+	font-family: ubuntu;
+	text-align: left;
+	margin-top: 0;
+	color: #eee;
+	margin-left: 3%;
+}

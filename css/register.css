@@ -1,0 +1,141 @@
+.register {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+select, textarea, input[type='text'], input[type='password'], input[type='date'], input[type='file']{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #1b191950;
+    font-family: ubuntu;
+    border: 0px;
+    color: #eee;
+    background-image: url('../img/pencil.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    padding-left: 11%;
+}
+input[type='date'], input[type='file']{
+    background-image: none;
+    padding-left: 12px;
+}
+select{
+    width: 100%;
+    background-image: none;
+    padding-left: 3%;
+}
+option{
+    background-color: #eee;
+    padding: 5px;
+    color: black;
+}
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+    background-image: none;
+    padding-left: 5%;
+    min-height: 60px;
+}
+.registershit {
+    width: 250px;
+    height: 0px auto;
+    margin-top: 0px;
+    background-size: 100%;
+    opacity: 0.8;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.registershit h2{
+    margin: 0;
+    text-align: left;
+    font-family: lato;
+    color: #eee;
+}
+.rs1{
+    width: auto;
+    height: 0px auto;
+    float: left;
+    background-color: transparent;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 12px;    
+}
+/* Set a style for all buttons */
+button {
+    background-color: #1b191999;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    color: #eee;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.register-imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    padding-top: 15px;
+}
+.register-container {
+    padding: 16px;
+    display: none;
+}
+.register-modal-content {
+    background-color: #1b191999;
+    margin: 0% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 0px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.register-close {
+    position: absolute;
+    right: 25px;
+    top: 10;
+    color: #eee;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.register-close:hover,
+.register-close:focus {
+    color: #eee;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+input[type='radio']{
+    margin-left: 10px;
+}

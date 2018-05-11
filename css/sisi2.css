@@ -1,0 +1,47 @@
+#kontak{
+	background-image: url('../img/phone-call.png');
+}
+#login{
+	background-image: url('../img/login.png');
+}
+#profile{
+	background-image: url('../img/user.png');
+}
+#wallet{
+	background-image: url('../img/wallet.png')
+}
+#simpankoin{
+	background-image: url('../img/coin.png');
+}
+#simpantabungan{
+	background-image: url('../img/money-bag.png');
+}
+#pinjaman{
+	background-image: url('../img/money.png');
+}
+#angsuranan{
+	background-image: url('../img/payment-method.png');
+	opacity: 0.8;
+}
+#register{
+	background-image: url('../img/note.png');
+}
+#useria{
+	background-image: url('../img/team.png');
+}
+#memberia{
+	background-image: url('../img/employees.png');
+}
+#handshake{
+	background-image: url('../img/hand-shake.png');
+	opacity: 0.9;
+}
+#pinjam2{
+	background-image: url('../img/moneymaker.png');
+}
+#angsuran2{
+	background-image: url('../img/currency.png');
+}
+#reportan{
+	background-image: url('../img/bars.png');
+}

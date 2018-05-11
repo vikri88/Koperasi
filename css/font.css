@@ -1,0 +1,12 @@
+@font-face{
+	font-family: ubuntu;
+	src: url('../font/ubuntu-light.ttf');
+}
+@font-face{
+	font-family: lato;
+	src: url('../font/lato-light.ttf');
+}
+@font-face{
+	font-family: opensans;
+	src: url('../font/opensans-light.ttf');
+}
